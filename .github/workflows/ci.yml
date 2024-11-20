@@ -28,8 +28,7 @@ jobs:
 
       - name: Build documentation
         run: |
-          cd docs
-          make html
+          sphinx-build -M html source docs/_build
 
       - name: Upload documentation artifact
         uses: actions/upload-artifact@v3
