@@ -30,7 +30,7 @@ jobs:
         run: |
           sphinx-build -M html source docs/_build
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy to Github pages 
         if: success()
         run: |
           git config --global user.name 'GitHub Actions'
