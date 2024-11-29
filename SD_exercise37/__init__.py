@@ -14,6 +14,6 @@ def subtract(a: int, b: int) -> int:
 
     :param a: First integer
     :param b: Second integer
-    :return: The difference between a and b
+    :return: The difference between a and b 
     """
     return a - b 
